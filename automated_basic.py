@@ -5,20 +5,16 @@ class AutoBasic:
 
     def division(self):
         print("{} / {} has been initialized".format(self.first_number, self.second_number))
-        answer = self.first_number / self.second_number
-        return answer
+        return self.first_number / self.second_number
 
     def multiplication(self):
         print("{} * {} has been initialized".format(self.first_number, self.second_number))
-        answer = self.first_number * self.second_number
-        return answer
+        return self.first_number * self.second_number
 
     def addition(self):
         print("{} + {} has been initialized".format(self.first_number, self.second_number))
-        answer = self.first_number + self.second_number
-        return answer
+        return self.first_number + self.second_number
 
     def subtraction(self):
         print("{} - {} has been initialized".format(self.first_number, self.second_number))
-        answer = self.first_number - self.second_number
-        return answer
+        return self.first_number - self.second_number
