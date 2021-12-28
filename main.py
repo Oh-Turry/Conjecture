@@ -1,3 +1,4 @@
+from pythagoras import Pythagorean
 from quadratic_formula import Quadratic
 
 
@@ -68,7 +69,13 @@ def basic():
         c = float(input("Please enter the value of c: "))
         Quadratic(a, b, c).quadratic()
 
+    # Pythagorean Calculation
+    if method == "p":
+        Pythagorean.pythagoras()
 
-print("+ for addition\n- for subtraction\n/ for division\n* for multiplication\nq for Quadratic Solver")
+
+print(
+    "+ for addition\n- for subtraction\n/ for division\n* for multiplication\nq for Quadratic Solver\np for Pythagoras Solver"
+)
 method = input("Input: ")
 basic()
